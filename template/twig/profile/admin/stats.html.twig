@@ -1,0 +1,16 @@
+{% if items is defined
+    and items is not empty %}
+
+    <div class="row my-3">
+        {% for item in items %}
+            <div class="col-12 col-md-4 mb-4 mb-lg-0">
+                <div class="bg-white rounded shadow-sm">
+                    <div class="card-body">
+                        <div class="font-weight-bold mb-4 font-16">{{ item.label|raw }}</div>
+                        <p class="font-20 m-0 text-right">{{ item.value|raw }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

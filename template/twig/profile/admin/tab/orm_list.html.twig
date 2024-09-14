@@ -1,0 +1,11 @@
+<div class="pmpr-table vertically-aligned mt-4">
+    {{ list_table.views()|raw }}
+    <form id="admin-page-list-filter" method="get">
+        <input type="hidden" name="page" value="{{ name|esc_attr }}"/>
+        <input type="hidden" name="orm_filter_by" value="{{ filter.name|esc_attr }}"/>
+        <input type="hidden" name="orm_filter_value" value="{{ filter.value|esc_attr }}"/>
+        {{ list_table.search_box(items, name)|raw }}
+        {{ list_table.display()|raw }}
+    </form>
+</div>
+

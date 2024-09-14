@@ -1,0 +1,15 @@
+<h2 id="incomes_and_payments">{{ title|raw }}</h2>
+<table class="form-table">
+    {% for field in fields %}
+        <tr>
+            <th>
+                {% if field.label is defined %}
+                    <label for="{{ field.id|esc_attr }}">{{ field.label|raw }}</label>
+                {% else %}
+                    {{ field.title|raw }}
+                {% endif %}
+            </th>
+            <td>{{ field.html|raw }}</td>
+        </tr>
+    {% endfor %}
+</table>

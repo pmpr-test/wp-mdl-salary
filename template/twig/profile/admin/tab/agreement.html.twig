@@ -1,0 +1,26 @@
+<div class="mt-4">
+    <div class="bg-white p-4 rounded">
+        {% if items is defined
+            and items is not empty %}
+            <div class="d-flex justify-content-between">
+                <h2 class="m-0">{{ title|raw }}</h2>
+                <a href="{{ edit_bank_accounts_url|esc_attr }}" class="text-decoration-none">{{ edit_bank_accounts_title|raw }}</a>
+            </div>
+            <hr class="mt-3 mb-1">
+            <table class="table table-borderless w-100 font-16">
+                {% for item in items %}
+                    <tr>
+                        <th style="max-width: 5.5rem; min-width: 5rem"
+                            class="py-3 text-right{% if not loop.last %} border-bottom{% endif %}">{{ item.label|raw }}:
+                        </th>
+                        <td class="py-3 text-right{% if not loop.last %} border-bottom{% endif %}">{{ item.value|raw }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        {% else %}
+            <div class="font-16">
+                {{ not_found_message|raw }}
+            </div>
+        {% endif %}
+    </div>
+</div>

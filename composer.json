@@ -1,0 +1,31 @@
+{
+  "name": "pmpr-mdl/wp-mdl-salary",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Salary Module for Wordpress",
+  "keywords": [
+    "wordpress",
+    "package",
+    "salary"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\Salary\\": "src/Pmpr/Module/Salary"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.1.43",
+  "timestamp": "1726343103"
+}
