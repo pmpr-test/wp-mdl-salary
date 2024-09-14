@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66e5e7bd939ca             |
+    |             66e5ec9a0855e             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Salary; class Asset extends Container { public function wigskegsqequoeks() { $this->waqewsckuayqguos("\142\145\146\x6f\x72\145\137\x65\156\x71\165\145\x75\x65\x5f\x62\141\143\x6b\145\156\144\x5f\x61\x73\163\145\164\163", [$this, "\145\x6e\161\165\x65\x75\145"]); } public function enqueue() { if (!($eygsasmqycagyayw = $this->miocmcoykayoyyau())) { goto sciwggaeogcoesiu; } $eygsasmqycagyayw->ayeieigcckcmsikq($eygsasmqycagyayw->owygwqwawqoiusis("\x61\x64\x6d\x69\x6e", $eygsasmqycagyayw->get("\141\x64\155\151\156\x2e\x6a\x73"))->simswskycwagoeqy())->ikqyiskqaaymscgw("\141\x6a\x61\170", Ajax::myikkigscysoykgy); sciwggaeogcoesiu: } }
+ namespace Pmpr\Module\Salary; class Asset extends Container { public function wigskegsqequoeks() { $this->waqewsckuayqguos("\x62\x65\x66\157\x72\x65\137\x65\156\161\x75\x65\165\x65\137\x62\x61\143\153\145\x6e\x64\x5f\141\163\163\x65\164\163", [$this, "\x65\156\161\165\x65\165\x65"]); } public function enqueue() { if (!($eygsasmqycagyayw = $this->miocmcoykayoyyau())) { goto sciwggaeogcoesiu; } $eygsasmqycagyayw->ayeieigcckcmsikq($eygsasmqycagyayw->owygwqwawqoiusis("\141\x64\155\151\x6e", $eygsasmqycagyayw->get("\141\x64\x6d\151\156\56\152\163"))->simswskycwagoeqy())->ikqyiskqaaymscgw("\141\x6a\141\170", Ajax::myikkigscysoykgy); sciwggaeogcoesiu: } }
