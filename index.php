@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6705178f2ba0e             |
+    |             670d0048bc461             |
     |_______________________________________|
 */
  use Pmpr\Module\Salary\Salary; Salary::symcgieuakksimmu();
