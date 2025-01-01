@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Salary\n"
-"POT-Creation-Date: 2024-12-29 14:11+0330\n"
-"PO-Revision-Date: 2024-12-29 14:11+0330\n"
+"POT-Creation-Date: 2024-12-31 21:14+0330\n"
+"PO-Revision-Date: 2024-12-31 21:15+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -48,7 +48,7 @@ msgstr "شناسه یک پارامتر ضروری است"
 msgid "Fee of each transaction is %s"
 msgstr "کارمزد برای هر تراکنش %s"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:61
+#: src/Pmpr/Module/Salary/Model/Agreement.php:64
 #: src/Pmpr/Module/Salary/Model/Request.php:67
 #: src/Pmpr/Module/Salary/Profile/Admin/Tab/Agreement.php:16
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Withdraw.php:477
@@ -57,28 +57,28 @@ msgstr "کارمزد برای هر تراکنش %s"
 msgid "Agreement"
 msgstr "الگوی درآمدی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:62
+#: src/Pmpr/Module/Salary/Model/Agreement.php:65
 msgid "Agreements"
 msgstr "الگو‌های درآمدی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:78
+#: src/Pmpr/Module/Salary/Model/Agreement.php:81
 #: src/Pmpr/Module/Salary/Setting.php:85
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:82
+#: src/Pmpr/Module/Salary/Model/Agreement.php:85
 msgid "Open"
 msgstr "باز"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:83
+#: src/Pmpr/Module/Salary/Model/Agreement.php:86
 msgid "Closed"
 msgstr "بسته"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:84
+#: src/Pmpr/Module/Salary/Model/Agreement.php:87
 msgid "Private"
 msgstr "خصوصی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:85
+#: src/Pmpr/Module/Salary/Model/Agreement.php:88
 #: src/Pmpr/Module/Salary/Model/BankAccount.php:129
 #: src/Pmpr/Module/Salary/Model/Payment.php:61
 #: src/Pmpr/Module/Salary/Model/Request.php:57
@@ -88,39 +88,39 @@ msgstr "خصوصی"
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:89
+#: src/Pmpr/Module/Salary/Model/Agreement.php:92
 msgid "Viewing Roles"
 msgstr "نقش‌های مشاهده کننده"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:94
+#: src/Pmpr/Module/Salary/Model/Agreement.php:97
 msgid "Viewing Users"
 msgstr "کاربران مشاهده کننده"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:99
+#: src/Pmpr/Module/Salary/Model/Agreement.php:102
 msgid "Assigned Role"
 msgstr "نقش اختصاص داده شده"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:106
+#: src/Pmpr/Module/Salary/Model/Agreement.php:109
 msgid "User(Request) Selector Callback"
 msgstr "رویه انتخابگر کاربر(درخواست)"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:114
+#: src/Pmpr/Module/Salary/Model/Agreement.php:117
 msgid "Product Selector Method"
 msgstr "روش انتخاب محصول"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:115
+#: src/Pmpr/Module/Salary/Model/Agreement.php:118
 msgid "By Callback"
 msgstr "توسط رویه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:116
+#: src/Pmpr/Module/Salary/Model/Agreement.php:119
 msgid "Direct"
 msgstr "مستقیم"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:121
+#: src/Pmpr/Module/Salary/Model/Agreement.php:124
 msgid "Product Selector Callback"
 msgstr "رویه انتخابگر محصول"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:129
+#: src/Pmpr/Module/Salary/Model/Agreement.php:132
 #: src/Pmpr/Module/Salary/Profile/Admin/ListTable/ProductListTable.php:29
 #: src/Pmpr/Module/Salary/Profile/Admin/Tab/Product.php:16
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:109
@@ -129,150 +129,166 @@ msgstr "رویه انتخابگر محصول"
 msgid "Products"
 msgstr "محصولات"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:133
+#: src/Pmpr/Module/Salary/Model/Agreement.php:136
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:116
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:118
 msgid "Product Categories"
 msgstr "دسته‌های محصول"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:138
+#: src/Pmpr/Module/Salary/Model/Agreement.php:141
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:205
 msgid "Agreement Method"
 msgstr "شیوه درآمد"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:139
+#: src/Pmpr/Module/Salary/Model/Agreement.php:142
 #: src/Pmpr/Module/Salary/Setting.php:205
 msgid "Constant Rate"
 msgstr "نرخ ثابت"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:140
+#: src/Pmpr/Module/Salary/Model/Agreement.php:143
 #: src/Pmpr/Module/Salary/Setting.php:206
 msgid "Variable Rate"
 msgstr "نرخ متغییر (درصدی)"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:144
+#: src/Pmpr/Module/Salary/Model/Agreement.php:147
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:207
 msgid "Agreement Method Value"
 msgstr "مقدار درآمد"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:159
+#: src/Pmpr/Module/Salary/Model/Agreement.php:162
 msgid "Order Threshold Type"
 msgstr "نوع آستانه‌گذاری سفارش‌ها"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:160
+#: src/Pmpr/Module/Salary/Model/Agreement.php:163
 msgid "Without Threshold"
 msgstr "بدون آستانه گذاری"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:161
+#: src/Pmpr/Module/Salary/Model/Agreement.php:164
 msgid "Numerical"
 msgstr "عددی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:162
+#: src/Pmpr/Module/Salary/Model/Agreement.php:165
 msgid "Monetary"
 msgstr "پولی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:166
+#: src/Pmpr/Module/Salary/Model/Agreement.php:169
 msgid "Consider Before Minimum Threshold"
 msgstr "حساب کردن کف آستانه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:171
+#: src/Pmpr/Module/Salary/Model/Agreement.php:174
 msgid "Maximum Order Threshold"
 msgstr "سقف آستانه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:177
+#: src/Pmpr/Module/Salary/Model/Agreement.php:180
 msgid "Minimum Order Threshold"
 msgstr "کف آستانه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:183
+#: src/Pmpr/Module/Salary/Model/Agreement.php:186
 msgid "Manual"
 msgstr "دستی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:184
+#: src/Pmpr/Module/Salary/Model/Agreement.php:187
 msgid "Automatic"
 msgstr "خودکار"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:185
+#: src/Pmpr/Module/Salary/Model/Agreement.php:188
 msgid "Withdraw Method"
 msgstr "طریقه برداشت"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:189
+#: src/Pmpr/Module/Salary/Model/Agreement.php:192
 msgid "Withdraw Period"
 msgstr "بازه زمانی تسویه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:190
+#: src/Pmpr/Module/Salary/Model/Agreement.php:193
 msgid "Per Week"
 msgstr "هفتگی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:191
+#: src/Pmpr/Module/Salary/Model/Agreement.php:194
 msgid "Per Month"
 msgstr "ماهیانه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:192
+#: src/Pmpr/Module/Salary/Model/Agreement.php:195
 msgid "Each Three Month"
 msgstr "هر سه ماه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:193
+#: src/Pmpr/Module/Salary/Model/Agreement.php:196
 msgid "Each Six Month"
 msgstr "هر شش ماه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:194
+#: src/Pmpr/Module/Salary/Model/Agreement.php:197
 msgid "Per Year"
 msgstr "سالیانه"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:198
+#: src/Pmpr/Module/Salary/Model/Agreement.php:201
+msgid "Request Method"
+msgstr "روش درخواست"
+
+#: src/Pmpr/Module/Salary/Model/Agreement.php:202
+msgid "Free"
+msgstr "رایگان"
+
+#: src/Pmpr/Module/Salary/Model/Agreement.php:203
+msgid "Costly"
+msgstr "با هزینه"
+
+#: src/Pmpr/Module/Salary/Model/Agreement.php:207
+msgid "Request Method's Product"
+msgstr "محصول روش درخواست"
+
+#: src/Pmpr/Module/Salary/Model/Agreement.php:212
 msgid "Description"
 msgstr "شرح"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:203
+#: src/Pmpr/Module/Salary/Model/Agreement.php:217
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:123
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:186
 msgid "Terms"
 msgstr "قوانین و مقررات"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:209
+#: src/Pmpr/Module/Salary/Model/Agreement.php:223
 #: src/Pmpr/Module/Salary/Model/Request.php:22
 #: src/Pmpr/Module/Salary/Model/Withdraw.php:93
 msgid "Requests"
 msgstr "درخواست‌ها"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:213
+#: src/Pmpr/Module/Salary/Model/Agreement.php:227
 #: src/Pmpr/Module/Salary/Model/BankAccount.php:140
 #: src/Pmpr/Module/Salary/Model/Payment.php:134
 #: src/Pmpr/Module/Salary/Model/Request.php:80
 msgid "Created At"
 msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:218
+#: src/Pmpr/Module/Salary/Model/Agreement.php:232
 #: src/Pmpr/Module/Salary/Model/Payment.php:138
 msgid "Updated At"
 msgstr "تاریخ به روزرسانی"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:336
+#: src/Pmpr/Module/Salary/Model/Agreement.php:358
 #: src/Pmpr/Module/Salary/Model/Income.php:70
 #: src/Pmpr/Module/Salary/Profile/Admin/ListTable/ProductListTable.php:30
 msgid "Product"
 msgstr "محصول"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:347
+#: src/Pmpr/Module/Salary/Model/Agreement.php:369
 msgid "Category"
 msgstr "دسته"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:356
+#: src/Pmpr/Module/Salary/Model/Agreement.php:378
 #, php-format
 msgid "Include %s"
 msgstr "شامل %s"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:356
+#: src/Pmpr/Module/Salary/Model/Agreement.php:378
 msgid "&nbsp;and&nbsp;"
 msgstr "&nbsp;و&nbsp;"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:391
+#: src/Pmpr/Module/Salary/Model/Agreement.php:413
 #: src/Pmpr/Module/Salary/Profile/Admin/ListTable/ProductListTable.php:116
 #, php-format
 msgid "%s Number"
 msgstr "%s عدد"
 
-#: src/Pmpr/Module/Salary/Model/Agreement.php:395
+#: src/Pmpr/Module/Salary/Model/Agreement.php:417
 msgid "No Threshold"
 msgstr "بدون آستانه"
 
