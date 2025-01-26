@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6795e81296110             |
+    |             6796bb317f48c             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Salary\Reseller; use Pmpr\Module\Salary\Container; class Reseller extends Container { }
