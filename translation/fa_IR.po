@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Salary\n"
-"POT-Creation-Date: 2025-01-27 01:57+0330\n"
-"PO-Revision-Date: 2025-01-27 02:07+0330\n"
+"POT-Creation-Date: 2025-01-27 15:12+0330\n"
+"PO-Revision-Date: 2025-01-27 15:15+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -86,7 +86,7 @@ msgid "Private"
 msgstr "خصوصی"
 
 #: src/Pmpr/Module/Salary/Model/Agreement.php:92
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:132
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:137
 #: src/Pmpr/Module/Salary/Model/Payment.php:61
 #: src/Pmpr/Module/Salary/Model/Request.php:71
 #: src/Pmpr/Module/Salary/Model/Request.php:233
@@ -254,7 +254,7 @@ msgid "Requests"
 msgstr "درخواست‌ها"
 
 #: src/Pmpr/Module/Salary/Model/Agreement.php:237
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:148
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:153
 #: src/Pmpr/Module/Salary/Model/Payment.php:134
 #: src/Pmpr/Module/Salary/Model/Request.php:125
 msgid "Created At"
@@ -294,7 +294,7 @@ msgstr "%s عدد"
 msgid "No Threshold"
 msgstr "بدون آستانه"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:56
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:61
 #: src/Pmpr/Module/Salary/Model/Withdraw.php:72
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Withdraw.php:161
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Withdraw.php:489
@@ -302,53 +302,53 @@ msgstr "بدون آستانه"
 msgid "Bank Account"
 msgstr "حساب‌ بانکی"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:57
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:62
 #: src/Pmpr/Module/Salary/Profile/Panel/Panel.php:317
 msgid "Bank Accounts"
 msgstr "حساب‌های بانکی"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:80
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:85
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/BankAccount.php:107
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:81
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:176
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:86
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:181
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/BankAccount.php:248
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/BankAccount.php:255
 msgid "IBAN"
 msgstr "شناسه شبا"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:82
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:187
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:87
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:192
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/BankAccount.php:249
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/BankAccount.php:259
 msgid "Debit Card"
 msgstr "کارت بانکی"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:116
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:121
 msgid "Owner Name"
 msgstr "نام صاحب حساب"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:120
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:125
 #: src/Pmpr/Module/Salary/Model/Request.php:55
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:133
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:138
 msgid "Editable"
 msgstr "قابل ویرایش"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:134
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:139
 #: src/Pmpr/Module/Salary/Model/Income.php:79
 msgid "Locked"
 msgstr "قفل شده"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:138
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:143
 msgid "Value"
 msgstr "مقدار"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:144
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:149
 #: src/Pmpr/Module/Salary/Model/Income.php:124
 #: src/Pmpr/Module/Salary/Model/Payment.php:130
 #: src/Pmpr/Module/Salary/Model/Withdraw.php:25
@@ -356,73 +356,73 @@ msgstr "مقدار"
 msgid "Withdraw"
 msgstr "برداشت"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:212
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:217
 msgid "Account user is required."
 msgstr ""
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:214
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:219
 msgid "Account type is not valid."
 msgstr "نوع حساب معتبر نیست."
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:218
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:223
 #, php-format
 msgid "%s can not be empty."
 msgstr "%s نمی تواند خالی باشد."
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:220
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:225
 #, php-format
 msgid "Entered %s is not valid"
 msgstr "%s وارد شده معتبر نیست"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:230
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:235
 #, php-format
 msgid "You are already add this %s to your bank account list."
 msgstr "شما قبلاً این %s را به لیست حساب بانکی خود اضافه کرده اید."
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:278
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:283
 msgid "Bank Account not found"
 msgstr "حساب بانکی پیدا نشد"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:291
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:296
 #: src/Pmpr/Module/Salary/Profile/Admin/Admin.php:63
 #, php-format
 msgid "It's not a valid %s"
 msgstr "این یک %s معتبر نیست"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:292
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:297
 #: src/Pmpr/Module/Salary/Profile/Admin/Admin.php:65
 #: src/Pmpr/Module/Salary/Profile/Admin/Admin.php:66
 #, php-format
 msgid "Please select a %s"
 msgstr "لطفا یک %s را انتخاب کنید"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:309
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:314
 msgid "Sorry, you can not add new bank info, some previous item is not valid."
 msgstr ""
 "متاسفانه شما قادر به اضافه کردن اطلاعات حساب جدید نیستید، برخی از آیتم‌های قبلی "
 "معتبر نیستند."
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:310
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:315
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/BankAccount.php:112
 msgid "Bank"
 msgstr "بانک"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:312
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:317
 #: src/Pmpr/Module/Salary/Setting.php:148 src/Pmpr/Module/Salary/User.php:72
 msgid "Account Information Type"
 msgstr "نوع اطلاعات حساب"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:313
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:318
 #: src/Pmpr/Module/Salary/Model/Income.php:44
 msgid "Owner"
 msgstr "کاربر"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:313
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:318
 #, php-format
 msgid "Please enter at least %s characters"
 msgstr "لطفا بیش از %s کاراکتر وارد کنید"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:315
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:320
 msgid ""
 "Your account specifications not supported, please add information based on "
 "supported banks."
@@ -430,99 +430,119 @@ msgstr ""
 "اطلاعات حساب شما پشتیبانی نمی‌شوند، لطفا با توجه به بانک‌های قابل انتخاب اطلاعات "
 "خود را وارد کنید."
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:316
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:321
 msgid "Sorry, this value already exist in previous items."
 msgstr "مقدار مورد نظر در آیتم‌‌های قبلی موجود است."
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:332
-msgid "Bank Melli Iran"
-msgstr "بانک ملی ایران"
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:337
+msgid "Ayandeh Bank"
+msgstr "بانک آینده"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:341
-msgid "Bank Saderat Iran"
-msgstr "بانک صادرات ایران"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:350
-msgid "Bank of Industry and Mine"
-msgstr "بانک صنعت و معدن"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:359
-msgid "Bank Keshavarzi Iran"
-msgstr "بانک کشاورزی ایران"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:368
-msgid "Bank Pasargad"
-msgstr "بانک پاسارگاد"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:377
-msgid "Export Development Bank of Iran"
-msgstr "بانک توسعه صادرات ایران"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:386
-msgid "Saman Bank"
-msgstr "بانک سامان"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:395
-msgid "Sarmaye Bank"
-msgstr "بانک سرمایه"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:404
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:346
 msgid "Eghtesad Novin Bank"
 msgstr "بانک اقتصاد نوین"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:413
-msgid "Bank Sepah"
-msgstr "بانک سپه"
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:355
+msgid "Pasargad Bank"
+msgstr "بانک پاسارگاد"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:422
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:364
+msgid "Tejarat Bank"
+msgstr "بانک تجارت"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:373
 msgid "Tosee Taavon Bank"
 msgstr "بانک توسعه تعاون"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:431
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:382
+msgid "Tosee Saderat Bank"
+msgstr "بانک توسعه صادرات"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:391
+msgid "Parsian Bank"
+msgstr "بانک پارسیان"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:400
 msgid "Dey Bank"
 msgstr "بانک دی"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:440
-msgid "Post Bank of Iran"
-msgstr "پست بانک ایران"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:449
-msgid "Sina Bank"
-msgstr "بانک سینا"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:458
-msgid "Ansar Bank"
-msgstr "بانک انصار"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:467
-msgid "Bank Mellat"
-msgstr "بانک ملت"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:476
-msgid "Bank Shahr"
-msgstr "بانک شهر"
-
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:485
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:409
 msgid "Refah Bank"
 msgstr "بانک رفاه"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:494
-msgid "Commerce Bank"
-msgstr "بانک تجارت"
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:418
+msgid "Saman Bank"
+msgstr "بانک سامان"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:503
-msgid "Housing Bank"
-msgstr "بانک مسکن"
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:427
+msgid "Sepah Bank"
+msgstr "بانک سپه"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:512
-msgid "Persian Bank"
-msgstr "بانک پارسیان"
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:436
+msgid "Sarmayeh Bank"
+msgstr "بانک سرمایه"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:521
-msgid "Entrepreneurship Bank"
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:445
+msgid "Sina Bank"
+msgstr "بانک سینا"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:454
+msgid "Shahr Bank"
+msgstr "بانک شهر"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:463
+msgid "Saderat Bank"
+msgstr "بانک صادرات"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:472
+msgid "Sanat O Madan Bank"
+msgstr "بانک صنعت و معدن"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:481
+msgid "Karafarin Bank"
 msgstr "بانک کارآفرین"
 
-#: src/Pmpr/Module/Salary/Model/BankAccount.php:810
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:490
+msgid "Keshavarzi Bank"
+msgstr "بانک کشاورزی"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:499
+msgid "Maskan Bank"
+msgstr "بانک مسکن"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:508
+msgid "Mellat Bank"
+msgstr "بانک ملت"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:517
+msgid "Melli Bank"
+msgstr "بانک ملی"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:526
+msgid "Post Bank"
+msgstr "پست بانک ایران"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:535
+msgid "Resalat Bank"
+msgstr "بانک قرض الحسنه رسالت"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:543
+msgid "Mehr Iran Bank"
+msgstr "بانک قرض الحسنه مهر ایران"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:551
+msgid "Gardeshgari Bank"
+msgstr "بانک گردشگری"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:559
+msgid "Iran Zamin Bank"
+msgstr "بانک ایران زمین"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:567
+msgid "Middle East Bank"
+msgstr "بانک خاورمیانه"
+
+#: src/Pmpr/Module/Salary/Model/BankAccount.php:855
 #, php-format
 msgid "Fee of each transaction is %s"
 msgstr "کارمزد برای هر تراکنش %s"
@@ -1745,6 +1765,39 @@ msgstr "الگوی درآمدی درخواستی شما یافت نشد!"
 #, php-format
 msgid "Can not add income: %s"
 msgstr "قادر به افزودن درآمد نیستیم: %s"
+
+#~ msgid "Bank Melli Iran"
+#~ msgstr "بانک ملی ایران"
+
+#~ msgid "Bank Saderat Iran"
+#~ msgstr "بانک صادرات ایران"
+
+#~ msgid "Bank of Industry and Mine"
+#~ msgstr "بانک صنعت و معدن"
+
+#~ msgid "Bank Pasargad"
+#~ msgstr "بانک پاسارگاد"
+
+#~ msgid "Export Development Bank of Iran"
+#~ msgstr "بانک توسعه صادرات ایران"
+
+#~ msgid "Bank Sepah"
+#~ msgstr "بانک سپه"
+
+#~ msgid "Bank Mellat"
+#~ msgstr "بانک ملت"
+
+#~ msgid "Bank Shahr"
+#~ msgstr "بانک شهر"
+
+#~ msgid "Commerce Bank"
+#~ msgstr "بانک تجارت"
+
+#~ msgid "Housing Bank"
+#~ msgstr "بانک مسکن"
+
+#~ msgid "Entrepreneurship Bank"
+#~ msgstr "بانک کارآفرین"
 
 #~ msgid "We received your request"
 #~ msgstr "درخواست شما را دریافت کردیم"
