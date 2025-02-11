@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Salary\n"
-"POT-Creation-Date: 2025-01-27 16:50+0330\n"
-"PO-Revision-Date: 2025-01-27 17:00+0330\n"
+"POT-Creation-Date: 2025-02-03 11:24+0330\n"
+"PO-Revision-Date: 2025-02-03 11:51+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -89,7 +89,7 @@ msgstr "خصوصی"
 #: src/Pmpr/Module/Salary/Model/BankAccount.php:137
 #: src/Pmpr/Module/Salary/Model/Payment.php:61
 #: src/Pmpr/Module/Salary/Model/Request.php:71
-#: src/Pmpr/Module/Salary/Model/Request.php:233
+#: src/Pmpr/Module/Salary/Model/Request.php:232
 #: src/Pmpr/Module/Salary/Model/Withdraw.php:57
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Withdraw.php:170
 #: src/Pmpr/Module/Salary/Setting.php:76
@@ -716,7 +716,7 @@ msgid "Rejected"
 msgstr "رد شده"
 
 #: src/Pmpr/Module/Salary/Model/Request.php:76
-#: src/Pmpr/Module/Salary/Model/Request.php:242
+#: src/Pmpr/Module/Salary/Model/Request.php:241
 msgid "Reject Description"
 msgstr "شرح رد کردن"
 
@@ -742,50 +742,55 @@ msgstr ""
 "هنگامی که درخواست را رد می کنید یا وضعیت را به انتظار پرداخت تغییر می دهید، یک "
 "متن برای کاربر بنویسید."
 
-#: src/Pmpr/Module/Salary/Model/Request.php:169
+#: src/Pmpr/Module/Salary/Model/Request.php:170
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Apply.php:181
 msgid "Bank of Origin"
 msgstr "بانک مبدا"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:170
+#: src/Pmpr/Module/Salary/Model/Request.php:171
 msgid "Unknown"
 msgstr "نامشخص"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:173
+#: src/Pmpr/Module/Salary/Model/Request.php:174
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Apply.php:189
 msgid "Tracking Number"
 msgstr "شماره پیگیری"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:177
+#: src/Pmpr/Module/Salary/Model/Request.php:178
 #: src/Pmpr/Module/Salary/Profile/Panel/Controller/Apply.php:185
 msgid "Transaction Date"
 msgstr "تاریخ تراکنش"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:227
+#: src/Pmpr/Module/Salary/Model/Request.php:226
 msgid "Request Review"
 msgstr "بررسی درخواست"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:236
+#: src/Pmpr/Module/Salary/Model/Request.php:235
 msgid "Accept Request"
 msgstr "پذیرش درخواست"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:237
+#: src/Pmpr/Module/Salary/Model/Request.php:236
 msgid "Reject Request"
 msgstr "رد درخواست"
 
-#: src/Pmpr/Module/Salary/Model/Request.php:243
+#: src/Pmpr/Module/Salary/Model/Request.php:242
 msgid "This message show to the user that requested this request."
 msgstr "این پیغام به کاربری که این درخواست را ثبت کرده است، نشان داده خواهد شد."
 
-#: src/Pmpr/Module/Salary/Model/Request.php:254
+#: src/Pmpr/Module/Salary/Model/Request.php:253
 #, php-format
 msgid "This request status already changed to %s."
 msgstr "وضعیت این درخواست پیش از این به %s تغییر کرده است."
 
-#: src/Pmpr/Module/Salary/Model/Request.php:267
+#: src/Pmpr/Module/Salary/Model/Request.php:266
 #: src/Pmpr/Module/Salary/Profile/Admin/Admin.php:179
 msgid "Submit"
 msgstr "تایید"
+
+#: src/Pmpr/Module/Salary/Model/Request.php:317
+#, php-format
+msgid "%s for %s agreement"
+msgstr "%s برای الگوی %s"
 
 #: src/Pmpr/Module/Salary/Model/Withdraw.php:54
 msgid "Pending Payment"
@@ -1744,9 +1749,9 @@ msgid "Bank is not supported"
 msgstr "بانک مورد نظر پشتیبانی نمی‌شود"
 
 #: src/Pmpr/Module/Salary/Woocommerce/Order.php:46
-#, fuzzy
+#, fuzzy, php-format
 #| msgid "Request status successfully changed to %s"
-msgid "Request status updated to accepted."
+msgid "Request status updated to %s."
 msgstr "وضعیت درخواست با موفقیت به %s تغییر کرد"
 
 #: src/Pmpr/Module/Salary/Woocommerce/Order.php:48
